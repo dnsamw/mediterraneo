@@ -1,0 +1,7 @@
+<?php
+
+/**
+ * Archive
+ * 
+ * @package Mediterraneo
+ */

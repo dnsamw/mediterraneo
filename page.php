@@ -1,0 +1,7 @@
+<?php
+
+/**
+ * Page
+ * 
+ * @package Mediterraneo
+ */

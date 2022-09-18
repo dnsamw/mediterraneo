@@ -1,0 +1,7 @@
+<?php
+
+/**
+ * Singular
+ * 
+ * @package Mediterraneo
+ */

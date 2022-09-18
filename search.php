@@ -1,0 +1,7 @@
+<?php
+
+/**
+ * Search
+ * 
+ * @package Mediterraneo
+ */

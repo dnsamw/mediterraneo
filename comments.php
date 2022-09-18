@@ -1,0 +1,7 @@
+<?php
+
+/**
+ * Comments
+ * 
+ * @package Mediterraneo
+ */
