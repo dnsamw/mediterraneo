@@ -40,6 +40,10 @@ get_header();
                         <div class="st first">
                             <img id="<?php echo $i; ?>" src="<?php echo $url; ?>" alt="" />
                         </div>
+                    <?php elseif ($result_img_ids_array[0] == 1) : ?>
+                        <div class="st first">
+                            <img id="<?php echo $i; ?>" src="<?php echo $url; ?>" alt="" />
+                        </div>
 
                     <?php else : ?>
                         <div class="st">
@@ -85,6 +89,7 @@ get_header();
             personal and attentive service and great company are what separates a
             delicious dinner from an unforgettable experience.
         </p>
+
     </div>
 </section>
 <!-- Dishes Slider -->
@@ -100,9 +105,9 @@ get_header();
                 <button class="card-btn">add to wishlist</button>
             </div>
             <div class="product-info">
-                <h2 class="product-brand">brand</h2>
+                <h2 class="product-brand">Dish Name </h2>
                 <p class="product-short-description">
-                    a short line about the cloth..
+                    a short line about the food item..
                 </p>
                 <span class="price">$20</span><span class="actual-price">$40</span>
             </div>
@@ -114,9 +119,9 @@ get_header();
                 <button class="card-btn">add to wishlist</button>
             </div>
             <div class="product-info">
-                <h2 class="product-brand">brand</h2>
+                <h2 class="product-brand">Dish Name </h2>
                 <p class="product-short-description">
-                    a short line about the cloth..
+                    a short line about the food item..
                 </p>
                 <span class="price">$20</span><span class="actual-price">$40</span>
             </div>
@@ -128,9 +133,9 @@ get_header();
                 <button class="card-btn">add to wishlist</button>
             </div>
             <div class="product-info">
-                <h2 class="product-brand">brand</h2>
+                <h2 class="product-brand">Dish Name </h2>
                 <p class="product-short-description">
-                    a short line about the cloth..
+                    a short line about the food item..
                 </p>
                 <span class="price">$20</span><span class="actual-price">$40</span>
             </div>
@@ -142,9 +147,9 @@ get_header();
                 <button class="card-btn">add to wishlist</button>
             </div>
             <div class="product-info">
-                <h2 class="product-brand">brand</h2>
+                <h2 class="product-brand">Dish Name </h2>
                 <p class="product-short-description">
-                    a short line about the cloth..
+                    a short line about the food item..
                 </p>
                 <span class="price">$20</span><span class="actual-price">$40</span>
             </div>
@@ -156,9 +161,9 @@ get_header();
                 <button class="card-btn">add to wishlist</button>
             </div>
             <div class="product-info">
-                <h2 class="product-brand">brand</h2>
+                <h2 class="product-brand">Dish Name </h2>
                 <p class="product-short-description">
-                    a short line about the cloth..
+                    a short line about the food item..
                 </p>
                 <span class="price">$20</span><span class="actual-price">$40</span>
             </div>
@@ -170,9 +175,9 @@ get_header();
                 <button class="card-btn">add to wishlist</button>
             </div>
             <div class="product-info">
-                <h2 class="product-brand">brand</h2>
+                <h2 class="product-brand">Dish Name </h2>
                 <p class="product-short-description">
-                    a short line about the cloth..
+                    a short line about the food item..
                 </p>
                 <span class="price">$20</span><span class="actual-price">$40</span>
             </div>
@@ -184,9 +189,9 @@ get_header();
                 <button class="card-btn">add to wishlist</button>
             </div>
             <div class="product-info">
-                <h2 class="product-brand">brand</h2>
+                <h2 class="product-brand">Dish Name </h2>
                 <p class="product-short-description">
-                    a short line about the cloth..
+                    a short line about the food item..
                 </p>
                 <span class="price">$20</span><span class="actual-price">$40</span>
             </div>
@@ -198,9 +203,9 @@ get_header();
                 <button class="card-btn">add to wishlist</button>
             </div>
             <div class="product-info">
-                <h2 class="product-brand">brand</h2>
+                <h2 class="product-brand">Dish Name </h2>
                 <p class="product-short-description">
-                    a short line about the cloth..
+                    a short line about the food item..
                 </p>
                 <span class="price">$20</span><span class="actual-price">$40</span>
             </div>
@@ -212,9 +217,9 @@ get_header();
                 <button class="card-btn">add to wishlist</button>
             </div>
             <div class="product-info">
-                <h2 class="product-brand">brand</h2>
+                <h2 class="product-brand">Dish Name </h2>
                 <p class="product-short-description">
-                    a short line about the cloth..
+                    a short line about the food item..
                 </p>
                 <span class="price">$20</span><span class="actual-price">$40</span>
             </div>
@@ -226,9 +231,9 @@ get_header();
                 <button class="card-btn">add to wishlist</button>
             </div>
             <div class="product-info">
-                <h2 class="product-brand">brand</h2>
+                <h2 class="product-brand">Dish Name </h2>
                 <p class="product-short-description">
-                    a short line about the cloth..
+                    a short line about the food item..
                 </p>
                 <span class="price">$20</span><span class="actual-price">$40</span>
             </div>

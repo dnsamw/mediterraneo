@@ -145,10 +145,10 @@ section{
     border-radius: 10px;
   }
 
-  @media (max-width: 800px) {
+  @media (max-width: 965px /*800*/) {
     .navbar {
       flex-direction: column;
-      align-items: flex-start;
+      /* align-items: flex-start; */
     }
 
     .toggle-button {
@@ -338,7 +338,8 @@ section{
   }
 
   .product-category {
-    padding: 0 10vw;
+    /* padding: 0 10vw; */
+    text-align: center;
     font-size: 30px;
     font-weight: 500;
     margin-bottom: 40px;
@@ -431,7 +432,7 @@ section{
     overflow: hidden;
     opacity: 0.5;
     text-transform: capitalize;
-    margin: 5px 0;
+    /* margin: 5px 0; */
   }
 
   .price {
@@ -970,6 +971,13 @@ section{
       padding: 25px;
     }
 
+    .grid-container {
+      display: grid;
+      grid-template-columns: auto auto auto;
+      justify-content: center;
+      /* padding: 10px; */
+    }
+
     .container .contactInfo {
       padding: 25px;
       flex-direction: column;
@@ -982,6 +990,10 @@ section{
 
     .container .contactForm .formBox .w50 {
       width: 100%;
+    }
+
+    .footer .logo-text{
+      font-size: 2rem;
     }
   }
 
