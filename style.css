@@ -594,6 +594,13 @@ section{
     text-align: right;
   }
 
+  /*ABOUT*/
+.about .restaurant-premises img{
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 25px;
+}
   
 /* TESTIMONIALS */
 .slide-container{

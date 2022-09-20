@@ -285,6 +285,10 @@ get_header();
 <section class="about container-primary">
     <h2>About Us</h2>
     <p>Wine & Dine Through Toronto is a publishing company in Canada that provides great and relevant content about premium wine and dining experiences. We’re here to guide you to great restaurants all over Toronto where you can taste all sorts of culinary masterpieces, from extraordinary comfort foods to world-class cuisines, in beautiful locations and spots that overlook views and have amazing ambience. We also review alcoholic drinks that can be highly appropriate for any occasion you’ll be having. In addition to these, we also deliver timely news and events to our avid audiences.</p>
+
+    <div class="restaurant-premises">
+        <img src="<?php bloginfo('template_url'); ?>/assets/images/restaurant.jpg" alt="Mediterraneo restaurant">
+    </div>
 </section>
 
 <!-- Testimonials -->
