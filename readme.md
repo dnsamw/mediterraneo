@@ -16,12 +16,15 @@ https://themeditterraneo.wixsite.com/mediterraneo
 
 ### Create the following sections in the new site:
 
-        3. Main image slider header (with 3 slider images )
-        4. Burger Menu with  About us, Blog , Click and collect ,   delivery  options.
-        5. Image slider which shows the dishes/menu items
-        6. Menu list
-        7. About Us
-        8. Testimonials
-        9. Resturent Address and restaurant inside image
-        10. Google map area of the restaurant
-        11. Footer with links to insta, TikTok and FB
+        3. Main image slider header (with 3 slider images ) ✔️
+        4. Burger Menu with  About us, Blog , Click and collect ,   delivery  options.✔️
+        5. Image slider which shows the dishes/menu items ✔️
+        6. Menu list ✔️
+        7. About Us ✔️
+        8. Testimonials ✔️
+        9. Resturent Address and restaurant inside image ✔️
+        10. Google map area of the restaurant ✔️
+        11. Footer with links to insta, TikTok and FB ✔️
+
+## Live Website Demo : 
+http://dineshm27.sg-host.com/demo/
