@@ -25,3 +25,6 @@ https://themeditterraneo.wixsite.com/mediterraneo
         9. Resturent Address and restaurant inside image ✔️
         10. Google map area of the restaurant ✔️
         11. Footer with links to insta, TikTok and FB ✔️
+
+## Live Website Demo : 
+http://dineshm27.sg-host.com/demo/
