@@ -24,38 +24,7 @@
         wp_body_open();
     }
     ?>
-    <!-- Navigation / Burger Menu -->
+    <!-- Navigation / Burger Menu. -->
     <section class="header">
-
         <?php get_template_part('template-parts/header/nav'); ?>
-
-        <nav class="navbar">
-            <div class="brand-title">
-                <h2><?php echo get_bloginfo('name');  ?> </h2>
-                <?php
-                if (function_exists('the_custom_logo')) {
-                    $custom_logo_id = get_theme_mod('custom_logo');
-                    $logo = wp_get_attachment_image_src($custom_logo_id);
-                }
-                ?>
-                <a href="/"><img src="<?php echo $logo[0] ?>" alt=""></a>
-            </div>
-            <a href="#" class="toggle-button">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </a>
-            <div class="navbar-links">
-                <?php
-                wp_nav_menu(
-                    array(
-                        'menu' => 'primary',
-                        'container' => '',
-                        'theme_location' => 'primary',
-                        // 'items_wrap' => ''
-                    )
-                );
-                ?>
-            </div>
-        </nav>
     </section>

@@ -804,24 +804,30 @@ section{
     font-weight: 300;
   }
 
-  .container .contactInfo ul.sci {
+  .social-links{
+    margin-bottom: 20px;
+  }
+
+   .social-links ul.sci {
     position: relative;
     display: flex;
     justify-content: center;
   }
 
-  .container .contactInfo ul.sci li {
+   .social-links ul.sci li {
     list-style: none;
     margin-left: 15px;
   }
 
-  .container .contactInfo ul.sci li a {
+   .social-links ul.sci li a {
     text-decoration: none;
   }
 
-  .container .contactInfo ul.sci li img {
+   .social-links ul.sci li img {
     max-width: 30px;
   }
+
+
 
   .container .contactForm {
     position: absolute;
@@ -1017,14 +1023,17 @@ section{
 footer .footer-content{
   padding: 30px 0;
     color: #fff;
+    text-align: center;
 }
 footer .footer-content a{
     text-decoration: none;
     padding: 5px 10px;
 }
 
-footer .footer small{
+.footer-text small {
   text-align: center;
+  font-weight: 200;
+  color: #828282;
 }
 
 a, a:visited, a:hover, a:active {

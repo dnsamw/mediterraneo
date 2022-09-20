@@ -9,24 +9,33 @@ $menu_class = \MEDITERRANEO_THEME\Inc\Menus::get_instance();
 $header_menu_id = $menu_class->get_menu_id('mediterraneo-header-menu');
 $header_menus = wp_get_nav_menu_items($header_menu_id);
 
-echo '<pre>';
-print_r($header_menus);
-wp_die();
+// echo '<pre>';
+// print_r($header_menus);
+// wp_die();
 
 ?>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light py-4">
-    <div class="container">
-        <?php
-        if (function_exists('the_custom_logo')) {
-            the_custom_logo();
-        }
-        ?>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
+<section class="header">
+    <nav class="navbar">
+        <div class="brand-title">
+            <h2><?php echo get_bloginfo('name');  ?> </h2>
+            <?php
+            if (function_exists('the_custom_logo')) {
+                $custom_logo_id = get_theme_mod('custom_logo');
+                $logo = wp_get_attachment_image_src($custom_logo_id);
+            }
+            ?>
+            <a href="/"><img src="<?php echo $logo[0] ?>" alt="Logo"></a>
 
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        </div>
+
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
+
+        <div class="navbar-links">
             <?php
             if (!empty($header_menus) && is_array($header_menus)) {
             ?>
@@ -80,7 +89,9 @@ wp_die();
             <?php
             }
             ?>
-            <?php get_search_form(); ?>
+            <?php //get_search_form(); 
+            ?>
         </div>
-    </div>
-</nav>
+        </div>
+
+</section>

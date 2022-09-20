@@ -34,27 +34,14 @@ function mediterraneo_enqueue_scripts()
 add_action('wp_enqueue_scripts', 'mediterraneo_enqueue_scripts');
 
 
-function dnsam_theme_support()
-{
-    //adds dynamic title tag support
-    add_theme_support('title-tag');
-    add_theme_support('custom-logo');
-}
+// function dnsam_theme_support()
+// {
+//     //adds dynamic title tag support
+//     add_theme_support('title-tag');
+//     add_theme_support('custom-logo');
+// }
 
-add_action('after_setup_theme', 'dnsam_theme_support');
-
-// TODO : Migrate this to nav template part, this should come from there.
-function dnsam_menus()
-{
-    $locations = array(
-        'primary' => "Desktop Top Menu",
-        'footer' => "Footer Menu Items"
-    );
-
-    register_nav_menus($locations);
-}
-
-add_action('init', 'dnsam_menus');
+// add_action('after_setup_theme', 'dnsam_theme_support');
 
 
 // Enqueue Uploader JS

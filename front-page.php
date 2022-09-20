@@ -477,17 +477,7 @@ get_header();
                     </li>
                 </ul>
             </div>
-            <ul class="sci">
-                <li>
-                    <a href="<?php echo get_option("tiktok_page") ?>" target="_blank"><img src="<?php bloginfo('template_url'); ?>/assets/images/tiktok.png" alt="" /></a>
-                </li>
-                <li>
-                    <a href="<?php echo get_option("ig_page") ?>" target="_blank"><img src="<?php bloginfo('template_url'); ?>/assets/images/instagram.png" alt="" /></a>
-                </li>
-                <li>
-                    <a href="<?php echo get_option("fb_page") ?>" target="_blank"><img src="<?php bloginfo('template_url'); ?>/assets/images/facebook.png" alt="" /></a>
-                </li>
-            </ul>
+
         </div>
         <div class="contactForm">
             <h2>Send a message</h2>
