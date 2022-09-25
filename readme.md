@@ -1,5 +1,3 @@
-Hi Dileepa,
-
 # Website Assignment:
 
 Our customer needs a modern restaurant wordpress website (on page design)
